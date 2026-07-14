@@ -223,10 +223,6 @@ h1 {
   text-shadow: 0 0 12px rgba(208, 16, 16, 0.28);
 }
 
-[data-config-text="event.price.display"] {
-  white-space: pre-line;
-}
-
 .quick-facts .location-note {
   font-size: 10pt;
 }
@@ -857,8 +853,7 @@ h1 {
             </div>
             <div>
               <span data-config-text="event.price.label">PRICE</span>
-              <strong data-config-text="event.price.display">預售 $700
-現場 $900</strong>
+              <strong data-config-text="event.price.display">預售 $700｜現場 $900</strong>
             </div>
             <div>
               <span data-config-text="event.location.label">Location</span>
@@ -1010,8 +1005,7 @@ h1 {
         <dl class="bank-transfer">
           <div>
             <dt data-i18n="amountLabel">金額</dt>
-            <dd data-config-text="event.price.display">預售 $700
-現場 $900</dd>
+            <dd data-config-text="event.price.display">預售 $700｜現場 $900</dd>
           </div>
           <div>
             <dt data-i18n="bankLabel">銀行</dt>
@@ -1095,10 +1089,8 @@ window.EVENT_CONFIG = {
       amount: "700",
       currency: "TWD",
       display: {
-        zh: "預售 $700
-現場 $900",
-        en: "Presale $700
-Door $900",
+        zh: "預售 $700｜現場 $900",
+        en: "Presale $700 | Door $900",
       },
     },
     location: {
