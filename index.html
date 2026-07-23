@@ -502,6 +502,36 @@ h1 {
   gap: 16px;
 }
 
+.booth-map-guide {
+  display: grid;
+  gap: 10px;
+  margin: -2px 0 2px;
+  padding: 12px;
+  border: 1px solid rgba(208, 16, 16, 0.58);
+  background:
+    linear-gradient(135deg, rgba(208, 16, 16, 0.18), transparent 38%),
+    rgba(0, 0, 0, 0.52);
+  box-shadow:
+    0 0 0 1px rgba(244, 244, 244, 0.04) inset,
+    0 0 22px rgba(208, 16, 16, 0.18);
+}
+
+.booth-map-guide figcaption {
+  color: var(--acid);
+  font-size: 0.8rem;
+  font-weight: 900;
+  line-height: 1.4;
+  text-transform: uppercase;
+  text-shadow: 0 0 12px rgba(208, 16, 16, 0.48);
+}
+
+.booth-map-guide img {
+  width: 100%;
+  border: 1px solid rgba(244, 244, 244, 0.16);
+  background: #020202;
+  box-shadow: 0 0 24px rgba(208, 16, 16, 0.22);
+}
+
 .registration-form label {
   display: grid;
   gap: 8px;
@@ -939,6 +969,15 @@ h1 {
                 <option value="大包14人" data-i18n="boothLarge">大包14人</option>
               </select>
             </label>
+
+            <figure class="booth-map-guide" aria-label="包廂座位圖">
+              <figcaption>包廂座位圖 Booth Map</figcaption>
+              <img
+                src="assets/criticaldose-booth-map-web.jpg?v=20260725"
+                alt="CriticalDose 浪漫屋聽鐵包廂座位圖，標示 B1 B2 B3 B4、S1 S2 S3 S4、360 度舞台、BAR 與入口"
+                loading="lazy"
+              />
+            </figure>
 
             <label>
               <span data-i18n="ticketHolderLabel">票人</span>
